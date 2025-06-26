@@ -18,3 +18,24 @@ A full-stack AI chatbot that answers your technical questions based **only** on 
 - Hugging Face Transformers & Inference API
 - sentence-transformers for embeddings
 - PyMuPDF (for PDFs), BeautifulSoup (for web scraping)
+
+## 🖥️ Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/rag-doc-consultant.git
+   cd rag-doc-consultant
+   
+2. Create a .env file:
+   HUGGINGFACEHUB_API_TOKEN=your_token_here
+
+3. Create and activate virtual environment:
+   python -m venv venv
+   source venv/bin/activate  # for Windows: venv\Scripts\activate
+
+4. Install dependencies:
+   pip install -r requirements.txt
+
+5. Run the app:
+   streamlit run app.py
+
