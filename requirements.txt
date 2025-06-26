@@ -1,0 +1,59 @@
+# --- Core Data Ingestion ---
+requests
+beautifulsoup4
+PyMuPDF
+
+# --- LLM Orchestration & Advanced RAG ---
+# LangChain is our core framework for building the RAG pipeline
+langchain
+langchain-core
+langchain-community
+langchain-huggingface  # For integrating free models from Hugging Face
+
+# --- Embeddings Model ---
+# SentenceTransformers is a great library for high-quality, free, and local embedding models
+sentence-transformers
+
+# --- Vector Database ---
+# ChromaDB is a modern, open-source vector store that's easy to set up locally
+chromadb
+
+# --- LLM Execution (for running models locally via Hugging Face) ---
+# These are needed to download and run open-source models on your machine
+torch
+transformers
+accelerate
+bitsandbytes
+
+# --- User Interface ---
+# Streamlit is a fast and easy way to build a web app for your project
+streamlit
+
+
+# --- Core Data Ingestion ---
+requests
+beautifulsoup4
+PyMuPDF
+python-dotenv
+
+# --- LLM Orchestration & Advanced RAG ---
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+
+# --- Embeddings Model ---
+sentence-transformers
+
+# --- Vector Database (NEW PACKAGE) ---
+langchain-chroma 
+chromadb
+
+# --- LLM Execution ---
+torch
+transformers
+accelerate
+bitsandbytes
+
+# --- User Interface ---
+streamlit
