@@ -27,19 +27,19 @@ A full-stack AI chatbot that answers your technical questions based **only** on 
    cd rag-doc-consultant
    
 2. Create a .env file:
-   '''bash
+   ```bash
    HUGGINGFACEHUB_API_TOKEN=your_token_here
 
 3. Create and activate virtual environment:
-   '''bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # for Windows: venv\Scripts\activate
 
 4. Install dependencies:
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 5. Run the app:
-   '''bash
+   ```bash
    streamlit run app.py
 
